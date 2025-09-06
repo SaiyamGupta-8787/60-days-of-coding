@@ -3,3 +3,25 @@
 numbers (once). 
 
 '''
+s = set()
+
+
+
+n = input("Enter number :")
+s.add(n)
+n = input("Enter number :")
+s.add(n)
+n = input("Enter number :")
+s.add(n)
+n = input("Enter number :")
+s.add(n)
+n = input("Enter number :")
+s.add(n)
+n = input("Enter number :")
+s.add(n)
+n = input("Enter number :")
+s.add(n)
+n = input("Enter number :")
+s.add(n)
+
+print(s)

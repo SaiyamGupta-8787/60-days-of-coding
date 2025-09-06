@@ -3,3 +3,21 @@
 value and use key as their names. Assume that the names are unique. 
 
 """
+d = {}
+
+name = input("Enter friends name : ")
+L = input("Enter language  : ")
+d.update({name : L})
+
+name = input("Enter friends name : ")
+L = input("Enter language  : ")
+d.update({name : L})
+
+name = input("Enter friends name : ")
+L = input("Enter language  : ")
+d.update({name : L})
+
+name = input("Enter friends name : ")
+L = input("Enter language  : ")
+d.update({name : L})
+print(d)
