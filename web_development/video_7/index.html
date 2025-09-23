@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Forms</title>
+</head>
+
+<body>
+    <h1>Form to apply for TA of web dev course :</h1>
+    <form action="post" method="POST">
+        <div>
+
+            <label for="username">
+                Enter username :
+            </label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required autofocus>
+        </div>
+        <div>
+            <label for="password">
+                Enter Password :
+            </label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required pattern="[a-zA-Z0-9]+">
+        </div>
+
+        <div> 
+
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">
+                MALE
+            </label>
+
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">
+                FEMALE
+            </label>
+
+        </div>
+
+        <div>
+
+            <input type="checkbox" name="subscribe" id="subscribe" value="yes">
+            <label for="subscribe">Subscribe to Newsletter</label>
+
+        </div>
+
+        <div>
+            <label for="comment">
+                Enter your description
+            </label>
+            <br>
+            <textarea name="comment" id="comment" cols="50" rows="5">Describe yourself in less than 100 words
+            </textarea>
+
+        </div>
+
+        <div>
+            <label for="fruits">
+                Enter your favorite fruit :
+            </label>
+            <select name="fruits" id="fruits">
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="orange">Orange</option>
+            </select>
+        </div>
+    </form>
+</body>
+
+</html>

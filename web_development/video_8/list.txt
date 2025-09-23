@@ -1,0 +1,57 @@
+Block-level Elements (used most first)
+
+<div> – Generic container, for grouping content and layout.
+
+<p> – Paragraph text. Used for most content blocks.
+
+<h1> … <h6> – Headings. Organize content hierarchy.
+
+<form> – Collect user input (login, signup, feedback).
+
+<ul> / <ol> / <li> – Lists (unordered and ordered).
+
+<section> – Logical sections of a page (like main parts).
+
+<header> – Top of page or section (navigation, logo).
+
+<footer> – Bottom of page (contact info, copyright).
+
+<article> – Independent content, like a blog post.
+
+<aside> – Sidebar or related content.
+
+<table> / <tr> / <td> / <th> / <thead> / <tbody> / <tfoot> – Tabular data.
+
+<blockquote> – Large quotation block.
+
+<pre> – Preformatted text (keeps spaces/line breaks).
+
+-----------------------------------------------------------
+
+ Inline Elements (used most first)
+
+<span> – Generic inline wrapper for styling or JS.
+
+<a> – Hyperlinks. Essential for navigation.
+
+<strong> – Important text (bold emphasis).
+
+<em> – Emphasized text (italic, for meaning).
+
+<b> / <i> / <u> – Visual text formatting.
+
+<img> – Images inside content.
+
+<input> / <label> / <textarea> / <select> / <button> – Form elements.
+
+<code> – Inline code snippet.
+
+<abbr> – Abbreviations.
+
+<cite> – Citation text.
+
+<q> – Short inline quotations.
+
+<time> – Date/time in machine-readable format.
+
+<mark> – Highlighted text

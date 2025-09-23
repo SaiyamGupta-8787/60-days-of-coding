@@ -1,0 +1,15 @@
+p{
+    background-color: aqua;
+} /*puri jagah/width lega jini block me availale hai*/
+
+
+a{
+    background-color: rgb(253, 114, 9);
+} /* sirf utni jagah/width le rha hai jitni zarurat ho */
+
+div{
+    background-color: gold;
+}
+span{
+    background-color: purple;
+}
